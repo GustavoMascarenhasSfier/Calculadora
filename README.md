@@ -1,6 +1,8 @@
 # Calculadora 
 Este é um projeto de uma calculadora simples e funcional, desenvolvida com as tecnologias fundamentais da web: HTML, CSS e JavaScript. O objetivo principal é demonstrar as habilidades básicas de desenvolvimento front-end, focando na lógica de operação e na interatividade visual.
 
+[![Visitar minha página](https://img.shields.io/badge/🌐_Visitar%20minha%20página-4CAF50?style=for-the-badge)](https://gustavomascarenhassfier.github.io/Calculadora/)
+
 
 ## 🌟 Recursos e Funcionalidades
 
