@@ -1,6 +1,4 @@
 # Calculadora 
-
-## Visão Geral
 Este é um projeto de uma calculadora simples e funcional, desenvolvida com as tecnologias fundamentais da web: HTML, CSS e JavaScript. O objetivo principal é demonstrar as habilidades básicas de desenvolvimento front-end, focando na lógica de operação e na interatividade visual.
 
 
