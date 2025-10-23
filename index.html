@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora - Gustavo Mascarenhas</title>
+</head>
+<body>
+
+    <main>
+        <section class="calculadora" role="application" aria-label="Calculadora">
+            <h2>Calculadora</h2>
+
+            <!-- Visor da calculadora -->
+            <div id="resultado" role="textbox" aria-readonly="true" aria-label="Resultado da calculadora">0</div>
+
+            <!-- Botões da calculadora -->
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="clean()" aria-label="Limpar" id="limpa">AC</button></td>
+                    <td><button class="botao" onclick="back()" aria-label="Apagar último caractere" id="apaga">&lt;</button></td>
+                    <td><button class="botao" onclick="porcentagem()" aria-label="Porcentagem" id="porcento">%</button></td>
+                    <td><button class="botao" onclick="dividir('/')" aria-label="Divisão" id="operador" >/</button></td>
+                    
+                    
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="inserir('7')" aria-label="Sete" id="teclas">7</button></td>
+                    <td><button class="botao" onclick="inserir('8')" aria-label="Oito" id="teclas">8</button></td>
+                    <td><button class="botao" onclick="inserir('9')" aria-label="Nove" id="teclas">9</button></td>
+                    <td><button class="botao" onclick="multiplicar('x')" aria-label="Multiplicação" id="operador"  >X</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="inserir('4')" aria-label="Quatro" id="teclas">4</button></td>
+                    <td><button class="botao" onclick="inserir('5')" aria-label="Cinco" id="teclas">5</button></td>
+                    <td><button class="botao" onclick="inserir('6')" aria-label="Seis" id="teclas">6</button></td>
+                    <td><button class="botao" onclick="subtrair('-')" aria-label="Subtração" id="operador" >-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="inserir('1')" aria-label="Um" id="teclas">1</button></td>
+                    <td><button class="botao" onclick="inserir('2')" aria-label="Dois" id="teclas">2</button></td>
+                    <td><button class="botao" onclick="inserir('3')" aria-label="Três" id="teclas">3</button></td>
+                    <td><button class="botao" onclick="somar('+')" aria-label="Adição" id="operador" >+</button></td>
+                
+                </tr>
+
+                <tr>
+                    <td ><button class="botao"  onclick="" aria-label="calculadora" id="img-calculadora"> <img src="img/calculadora.png" alt="Calculadora imagem" ></button></td>
+                    <td><button class="botao"  onclick="inserir('0')" aria-label="Zero" id="teclas">0</button></td>
+                    <td><button class="botao" onclick="inserir('.')" aria-label="Ponto decimal" id="teclas">.</button></td>
+                    <td ><button class="botao"  onclick="calcular('=')" aria-label="Igual" id="operador" >=</button></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
